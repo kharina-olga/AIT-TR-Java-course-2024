@@ -11,7 +11,7 @@ public class Task4_remove_given_number  {
     public static void main(String[] args) {
         int[] array = {2, 2, 3, 6, 7, 2};
         int[] res = removeElement(array, 8);
-        System.out.println(Arrays.toString(res));
+
 
         res[2] = 100;
         System.out.println("Начальный массив: " + Arrays.toString(array));
