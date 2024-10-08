@@ -16,4 +16,14 @@ public class Car {
     public String toString() {
         return String.format("Auto - model: %s, power: %d. Всего выпущено машин: %d", model, powerPS, totalCarProduced);
     }
+
+    public int getPowerPS() {
+        return powerPS;
+    }
+
+    public void setPowerPS(int powerPS) {
+        this.powerPS = powerPS;
+    }
 }
+
+

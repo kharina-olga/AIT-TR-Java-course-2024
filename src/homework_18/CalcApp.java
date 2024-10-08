@@ -1,12 +1,18 @@
 package homework_18;
 
 public class CalcApp {
+
+    // declaring of the constant number Pi
+    public static final double PI = 3.14159265;
+
     public static void main(String[] args) {
 
         System.out.println("Addition: " + Calculator.add(10, 5));
         System.out.println("Subtraction: " + Calculator.subtract(10, 5));
         System.out.println("Multiplication: " + Calculator.multiply(10, 5));
-        System.out.println("Division: " + Calculator.divide(10, 0));
+        System.out.println("Division: " + Calculator.divide(10, 3));
+        System.out.println("Length of circle: " + Calculator.circleLength(10));
+        System.out.println("Area of circle:" + Calculator.circleAreaOnRadius(10));
     }
 
 }
