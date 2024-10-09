@@ -13,9 +13,11 @@ package homework_18;
 //- Методы для вычисления длины окружности и площади круга, принимающий радиус и возвращающий результат.
 //- Константу (число Пи)
 
-import static homework_18.CalcApp.PI;
 
 public class Calculator {
+
+    // declaring of the constant number Pi
+    public static final double PI = 3.14159265;
 
     public static  int add(int a, int b) {
         return a + b;
