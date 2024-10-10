@@ -3,9 +3,19 @@ package homework_20;
 public class GeometricShapes {
 
     private String shape;
+    private String color;
 
-    public String displayInfo(){
-        return shape;
+    public void displayInfo(){
+
+        System.out.println(shape);
+    }
+
+    public String getColor() {
+        return color;
+    }
+
+    public void setColor(String color) {
+        this.color = color;
     }
 
     public GeometricShapes(String shape) {

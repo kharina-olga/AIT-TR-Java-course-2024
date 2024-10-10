@@ -21,6 +21,8 @@ public class Circle extends GeometricShapes {
     }
 
     public double calculateArea() {
-        return radius * radius * PI;
+        double area = radius * radius * PI;
+        System.out.println("The area of the circle is " + area );
+        return area;
     }
 }
