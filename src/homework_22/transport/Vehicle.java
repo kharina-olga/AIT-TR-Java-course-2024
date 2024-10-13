@@ -1,4 +1,4 @@
-package homework_22.Transport;
+package homework_22.transport;
 /*
 Task 2
 Создайте иерархию классов для разных типов транспортных средств: Vehicle (родительский класс), Car, Bicycle и Motorcycle (дочерние классы).

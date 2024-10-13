@@ -1,4 +1,4 @@
-package homework_22.Transport;
+package homework_22.transport;
 
 public class TransportApp {
     public static void main(String[] args) {
