@@ -15,6 +15,10 @@ public class Human {
     int speed;
     int timeToRest;
 
+    public Human() {
+
+    }
+
     public void info() {
         System.out.println("I am a " + name);
         System.out.println("I run with speed " + speed + " km/h");
@@ -48,9 +52,9 @@ public class Human {
     }
 
     public Human(String name, int speed, int timeToRest) {
-        this.name = name;
-        this.speed = speed;
-        this.timeToRest = timeToRest;
+        this.name = "Human";
+        this.speed = 10;
+        this.timeToRest = 15;
     }
 
     public String getName() {

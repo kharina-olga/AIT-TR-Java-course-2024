@@ -12,7 +12,7 @@ public class JoggerApp {
 
         Human human = new Human("Human", 15, 15);
         Amateur amateur = new Amateur("Amateur", 15, 10);
-        Pro pro = new Pro("Pro", 25, 5);
+    //    Pro pro = new Pro("Pro", 25, 5);
 
         human.info();
         human.run();
@@ -21,9 +21,9 @@ public class JoggerApp {
         amateur.info();
         amateur.run();
 
-        pro.info();
-        pro.run();
-
+     //   pro.info();
+     //   pro.run();
+//
 
     }
 }

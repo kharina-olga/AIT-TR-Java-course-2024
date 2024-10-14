@@ -8,8 +8,10 @@ package homework_22.jogger;
 
 public class Pro extends Human {
 
-    public Pro(String name, int speed, int timeToRest) {
-        super(name, speed, timeToRest);
+    public Pro() {
+        setName("Pro");
+        setSpeed(25);
+        setTimeToRest(5);
     }
 
     @Override
