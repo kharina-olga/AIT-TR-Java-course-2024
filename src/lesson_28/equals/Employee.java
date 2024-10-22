@@ -41,7 +41,9 @@ public class Employee {
     @Override
     public boolean equals(Object obj) {
         if (this == obj) return true; //ссылки ссылаются на один и тот же объект
+        // this == obj — если оба объекта указывают на одну и ту же область памяти, они автоматически считаются равными.
         if (!(obj instanceof Employee)) return false; //проверка на возможность привести к Employee
+        //  Приводим объект к типу employee
         Employee employee = (Employee) obj;
 
         // При таком сравнении возможно появление NPE
