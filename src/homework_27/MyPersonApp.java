@@ -1,4 +1,4 @@
-package homework_29;
+package homework_27;
 
 public class MyPersonApp {
     public static void main(String[] args) {
