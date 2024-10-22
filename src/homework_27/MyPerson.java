@@ -1,4 +1,4 @@
-package homework_28;
+package homework_27;
 
 public class MyPerson {
     private String email;
