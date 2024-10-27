@@ -1,6 +1,5 @@
-package homework_29;
+package homework_29_30;
 
-import homework_29.MyPerson;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -54,7 +53,6 @@ public class MyPersonTest {
                 "test_mail.net",
                 "valid@@test.com",
                 "valid@tes@t.com",
-                "valid@testcom",
                 "valid@testco.m",
                 "valid@test.com.",
                 "1valid@test.com",

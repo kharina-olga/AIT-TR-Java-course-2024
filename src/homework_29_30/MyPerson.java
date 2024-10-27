@@ -1,4 +1,10 @@
-package homework_29;
+package homework_29_30; // homework_30
+
+// 29 Task 1 Написать тестовый метод для проверки работы с "не валидными" email
+// Task 2 Написать тесты установки пароля в классе Person. Валидные / не валидные пароли.
+
+// 30 Task 1
+// Написать тесты установки пароля в классе Person. Валидные / не валидные пароли.
 
 public class MyPerson {
     private String email;

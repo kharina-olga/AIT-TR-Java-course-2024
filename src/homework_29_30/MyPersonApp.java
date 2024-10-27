@@ -1,4 +1,4 @@
-package homework_29;
+package homework_29_30;
 
 import homework_27.MyPerson;
 
