@@ -21,4 +21,5 @@ public class ListUtils {
         // Возвращаем список общих элементов
         return commonElements;
     }
+
 }
