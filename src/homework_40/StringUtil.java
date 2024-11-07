@@ -29,6 +29,7 @@ public class StringUtil {
                 .comparingInt(String::length)      // Сортировка по длине слова
                 .thenComparing(Comparator.naturalOrder()));  // Естественный порядок для слов одинаковой длины
 
+
         // Добавляем массив слов в набор TreeSet
         uniqueWords.addAll(Arrays.asList(words));
 
