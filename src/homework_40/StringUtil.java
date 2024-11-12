@@ -32,7 +32,6 @@ public class StringUtil {
 
         // Добавляем массив слов в набор TreeSet
         uniqueWords.addAll(Arrays.asList(words));
-
         // Преобразуем набор в список и возвращаем
         return new ArrayList<>(uniqueWords);
     }
